@@ -22,6 +22,7 @@
 		F45D86EB27582D9100365AA2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D86EA27582D9100365AA2 /* NetworkService.swift */; };
 		F45D86EE27582EC400365AA2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D86ED27582EC400365AA2 /* Character.swift */; };
 		F45D86F12758362700365AA2 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D86F02758362700365AA2 /* HomeCell.swift */; };
+		F4BE9C3C27618CB3007BCBF9 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE9C3B27618CB3007BCBF9 /* CharacterDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F45D86EA27582D9100365AA2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F45D86ED27582EC400365AA2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		F45D86F02758362700365AA2 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		F4BE9C3B27618CB3007BCBF9 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
 		FA60B086F3AB4A792CFF6908 /* Pods-RickAndMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE0458E9E5AF161BEF7123F /* Pods-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +228,7 @@
 			children = (
 				F44A6D1F2756FE8E003976AC /* HomeView.swift */,
 				F45D86F02758362700365AA2 /* HomeCell.swift */,
+				F4BE9C3B27618CB3007BCBF9 /* CharacterDetail.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BE9C3C27618CB3007BCBF9 /* CharacterDetail.swift in Sources */,
 				F45D86EB27582D9100365AA2 /* NetworkService.swift in Sources */,
 				F45D86F12758362700365AA2 /* HomeCell.swift in Sources */,
 				F44A6D2A2756FE8F003976AC /* RickAndMorty.xcdatamodeld in Sources */,
