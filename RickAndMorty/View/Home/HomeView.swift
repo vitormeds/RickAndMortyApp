@@ -7,22 +7,28 @@
 
 import SwiftUI
 import CoreData
+import UIKit
 
 struct HomeView: View {
 
     @StateObject private var viewModel = HomeViewModel()
-    
+
     var body: some View {
-        GeometryReader { view in
             NavigationView {
-                List(viewModel.characters, id: \.id) { item in
-                    HomeCell(character: item)
+                if viewModel.isLoading {
+                    ProgressView()
+                } else {
+                    List(viewModel.characters, id: \.id) { item in
+                            HomeCell(character: item)
+                                .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
+                                .listRowSeparator(.hidden)
+                    }
+                    .navigationBarHidden(true)
                 }
             }
             .onAppear {
                 viewModel.getCharacters()
             }
-        }
     }
 }
 
